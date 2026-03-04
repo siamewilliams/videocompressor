@@ -9,6 +9,7 @@ from PySide6.QtCore import Qt, QThread, Signal
 class VideoCompressor(QWidget):
     def __init__(self):
         super().__init__()
+
         self.setWindowTitle("Advanced Video Compressor")
         self.setGeometry(100, 100, 600, 500)
 
